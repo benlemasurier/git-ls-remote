@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/benlemasurier/git-ls-remote.png)](https://travis-ci.org/benlemasurier/git-ls-remote)
-
 git-ls-remote
 =============
 
 A very simple interface to `git-ls-remote` for node.js
+
+[![Build Status](https://travis-ci.org/benlemasurier/git-ls-remote.png)](https://travis-ci.org/benlemasurier/git-ls-remote)
 
 installation
 ============
