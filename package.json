@@ -1,0 +1,30 @@
+{
+  "name": "git-ls-remote",
+  "version": "0.0.1",
+  "description": "A very simple interface to git-ls-remote",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -t 5000 -R spec test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benlemasurier/git-ls-remote.git"
+  },
+  "keywords": [
+    "git",
+    "ls",
+    "remote"
+  ],
+  "author": "Ben LeMasurier <=> (https://github.com/benlemasurier)",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/benlemasurier/git-ls-remote/issues"
+  }
+}
