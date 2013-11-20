@@ -1,7 +1,7 @@
 {
   "name": "git-ls-remote",
   "version": "0.0.1",
-  "description": "A very simple interface to git-ls-remote",
+  "description": "A very simple interface to git ls-remote",
   "main": "index.js",
   "devDependencies": {
     "mocha": "",
