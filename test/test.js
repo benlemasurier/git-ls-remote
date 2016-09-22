@@ -1,5 +1,4 @@
 /* jslint strict: true, node: true */
-
 var assert = require('assert'),
     should = require('should'),
     git    = require('../index.js');
@@ -17,7 +16,6 @@ describe('git ls-remote', function() {
   });
 });
 
-
 describe('shell command injection', function() {
   describe('head', function() {
     it('should err', function(done) {
@@ -28,4 +26,3 @@ describe('shell command injection', function() {
     });
   });
 });
-
