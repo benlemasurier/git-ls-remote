@@ -1,5 +1,5 @@
 /* jslint strict: true, node: true */
-var exec = require('child_process').exec;
+var execFile = require('child_process').execFile;
 
 var e = exports;
 
@@ -14,7 +14,7 @@ e.head = function(url, branch, callback) {
     branch = 'master';
   }
 
-  exec('git ls-remote ' + url, function(err, stdout, stderr) {
+  execFile('git', ['ls-remote', url], function(err, stdout, stderr) {
     if(err !== null) {
       return callback(err);
     }

@@ -16,3 +16,16 @@ describe('git ls-remote', function() {
     });
   });
 });
+
+
+describe('shell command injection', function() {
+  describe('head', function() {
+    it('should err', function(done) {
+      git.head('https://github.com/benlemasurier/git-ls-remote.git > /dev/null; echo injected command', function(err, result) {
+        console.log(result);
+        if (err) return done();
+      });
+    });
+  });
+});
+
